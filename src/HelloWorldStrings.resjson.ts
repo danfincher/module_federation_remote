@@ -1,4 +1,4 @@
 export enum HelloWorldStrings {
-    HelloWorldMessage = "Hello World! This is from Module Federation Remote!",
+    HelloWorldMessage = "Hello World! Im the remote!",
     HelloWorldTitle = "Hello World Title",
 }
