@@ -12,14 +12,14 @@ builder.addPlugin(new ModuleFederationPlugin({
     library: {
         type: "amd",
     },
-    shared: {
-        react: {
-            singleton: true,
-            requiredVersion: "17.0.2",
-        },
-        "react-dom": {
-            singleton: true,
-            requiredVersion: "17.0.2",
-        },
-    }
+    // shared: {
+    //     react: {
+    //         singleton: true,
+    //         requiredVersion: "17.0.2",
+    //     },
+    //     "react-dom": {
+    //         singleton: true,
+    //         requiredVersion: "17.0.2",
+    //     },
+    // }
 }));
