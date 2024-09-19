@@ -10,6 +10,21 @@
     },
     "port": 3000
   },
+  "build": {
+    "moduleFederation": [{
+      "name": "remoteTest1",
+      "filename": "remoteEntry1.js",
+      "exposes": {
+        "./SharedComponent1": "./SharedComponent1"
+      }
+    }, {
+      "name": "remoteTest2",
+      "filename": "remoteEntry2.js",
+      "exposes": {
+        "./SharedComponent2": "./SharedComponent2"
+      }
+    }]
+  },
   "environment": {
     "deepmergeProperties": [
       "ArgBrowseOptions",

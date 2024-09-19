@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@fluentui/jest-serializer-merge-styles": "^8.0.31",
-    "@microsoft/azureportal-build": "13.348.0",
+    "@microsoft/azureportal-build": "file:E:\/workspace\/azureux3\/AzureUX-PortalFx\/src\/SDK\/Framework.ReactView\/azureportal-build",
     "@testing-library/react": "11.0.4",
     "@types/jest": "^29.5.12",
     "@types/react": "^17.0.53",
