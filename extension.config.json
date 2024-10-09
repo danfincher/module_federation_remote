@@ -15,7 +15,8 @@
       "name": "remoteTest1",
       "filename": "remoteEntry1.js",
       "exposes": {
-        "./SharedComponent1": "./SharedComponent1"
+        "./SharedComponent1": "./SharedComponent1",
+        "./SharedHook": "./SharedHook"
       },
       "remotes": []
     }, {
