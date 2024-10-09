@@ -16,13 +16,15 @@
       "filename": "remoteEntry1.js",
       "exposes": {
         "./SharedComponent1": "./SharedComponent1"
-      }
+      },
+      "remotes": []
     }, {
       "name": "remoteTest2",
       "filename": "remoteEntry2.js",
       "exposes": {
         "./SharedComponent2": "./SharedComponent2"
-      }
+      },
+      "remotes": []
     }]
   },
   "environment": {
